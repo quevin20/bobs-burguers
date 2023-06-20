@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+:root {
+    --background-color: #fbc663;
+    --color: #2b2b2b;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--color);
+    font-family: 'Pangolin', cursive;
+
+}
+
+main {
+
+    margin-top: 5.5rem;
+    padding: 1.5rem;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
